@@ -1,16 +1,12 @@
-<div align="center">
-
 # FSM-Controlled ALU & Sequential Multiplier
 
-### A Verilog RTL design combining arithmetic/logic processing, finite-state control, and multi-cycle multiplication
+**Verilog RTL | FPGA Digital Design | FSM Control | Sequential Arithmetic**
 
-![Verilog](https://img.shields.io/badge/HDL-Verilog-3776AB?style=for-the-badge) ![Intel FPGA](https://img.shields.io/badge/Platform-Intel%20FPGA-0071C5?style=for-the-badge) ![Simulation](https://img.shields.io/badge/Verification-Self--Checking%20Testbench-36454F?style=for-the-badge)
+An FPGA-oriented digital system combining a multi-operation arithmetic and logic datapath, a finite-state controller, and step-by-step sequential multiplication.
 
-**14 operations · 14 FSM states · 8-step sequential multiply · 16-bit result interface**
+**At a glance:** 14 operations · 14 FSM states · 8 multiplication steps · 16-bit result interface
 
-*Digital systems design project • Virginia Tech • Spring 2026*
-
-</div>
+*Virginia Tech digital systems project · Spring 2026*
 
 ---
 
@@ -182,8 +178,4 @@ Interests: FPGA Design · Digital Systems · Embedded Software · Hardware/Softw
 
 ---
 
-<div align="center">
-
-*Designed at the register-transfer level. Controlled by a finite-state machine. Verified through reproducible simulation.*
-
-</div>
+*Designed at the register-transfer level. Controlled by a finite-state machine. Includes a self-checking testbench; full simulation results pending verification.*
